@@ -1,12 +1,9 @@
 name: learn-github-actions
-on: create
+on:
+  create:
+  delete:
 jobs:
-  check-bats-version:
+  cicd-test-hogehoge:
     runs-on: ubuntu-latest
     steps:
       - run: echo "this is pen"
-      - uses: actions/checkout@v2
-      - run: |
-          ls -al
-          cd .github/workflows/
-          ls -al
