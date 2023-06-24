@@ -2,6 +2,7 @@ name: learn-github-actions
 on:
   create:
   delete:
+  gollum:
 jobs:
   cicd-test-hogehoge:
     runs-on: ubuntu-latest
